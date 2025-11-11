@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e8f5f3; 
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  background-color: #00796b;
+  color: white;  
+  padding: 20px 40px;
+}
+
+.title-section h1 {
+  margin: 0;
+  font-size: 28px;
+  text-align: left;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon {
+  text-align: center;
+  position: relative; 
+}
+
+.icon p {
+  margin: 0;
+  font-weight: bold;
+  background-color: white;
+  color: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  line-height: 20px;
+  position: absolute;
+  top: -8px;
+  right: -8px; 
+}
+
+.icon img {
+  width: 30px;
+  height: auto;
+  object-fit: contain;
+}
+
+.chat-icon {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+.chat-icon img {
+  width: 45px;
+  height: 45px;
+}
+
+main {
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h2 {
+  color: #00796b;
+}
+  
